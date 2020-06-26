@@ -23,6 +23,7 @@
     "env": {
       "es6": true
     },
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
       "ecmaVersion": 6,
       "sourceType": "module",
@@ -30,8 +31,8 @@
         "jsx": true,
         "tsx": true,
         "ts": true
-    }
-  },
+      }
+    },
     "extends": [
       "prettier",
       "prettier/react"
