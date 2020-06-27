@@ -46,7 +46,8 @@
     "overrides": [
       {
         "files": [
-          "**/*.ts?(x)"
+          "**/*.ts?(x)",
+          "**.test.ts?(x)"
         ],
         "rules": {
           "prettier/prettier": [

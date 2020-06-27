@@ -8,7 +8,9 @@ export const BlackKey = styled.button`
   background: #000;
   border: 1px solid black;
   position: absolute;
-
+  box-sizing: border-box;
+  margin: 1px;
+  margin-left: "-20px";
   :active {
     background: #333;
   }
@@ -19,23 +21,19 @@ export const WhiteKey = styled.button`
   height: 200px;
   background: #fff;
   border: 1px solid black;
+  margin: 1px;
+  margin-left: "-20px";
+  box-sizing: border-box;
   :active {
     background: #eee;
   }
 `
 
-const Notes: React.FunctionComponent<NotesProps> = ({
-  color,
-  note,
-  onClick
-}) => (
-  <div style={{ backgroundColor: "#FFF" }}>
-    {color === "white" ? (
-      <WhiteKey value={note} onClick={onClick} data-testid="white-key" />
-    ) : (
-      <BlackKey value={note} onClick={onClick} data-testid="black-key"/>
-    )}
-  </div>
-)
+const Note: React.FunctionComponent<NotesProps> = ({ color, note, onClick }) =>
+  color === "white" ? (
+    <WhiteKey value={note} onClick={onClick} data-testid="white-key" />
+  ) : (
+    <BlackKey value={note} onClick={onClick} data-testid="black-key" />
+  )
 
-export default Notes
+export default Note
