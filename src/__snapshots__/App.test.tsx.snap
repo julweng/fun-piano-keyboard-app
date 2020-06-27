@@ -12,6 +12,9 @@ exports[`App Should render App 1`] = `
         Mini Piano Keyboard
       </h1>
     </header>
+    <div>
+      Octave
+    </div>
   </div>
 </div>
 `;
