@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fun-piano-keyboard-app/static/css/main.1a0b34a1.chunk.css",
+    "main.js": "/fun-piano-keyboard-app/static/js/main.9e8b846a.chunk.js",
+    "main.js.map": "/fun-piano-keyboard-app/static/js/main.9e8b846a.chunk.js.map",
+    "runtime-main.js": "/fun-piano-keyboard-app/static/js/runtime-main.2ce7a998.js",
+    "runtime-main.js.map": "/fun-piano-keyboard-app/static/js/runtime-main.2ce7a998.js.map",
+    "static/js/2.59a08c8a.chunk.js": "/fun-piano-keyboard-app/static/js/2.59a08c8a.chunk.js",
+    "static/js/2.59a08c8a.chunk.js.map": "/fun-piano-keyboard-app/static/js/2.59a08c8a.chunk.js.map",
+    "index.html": "/fun-piano-keyboard-app/index.html",
+    "precache-manifest.ea885ec7e0d358de96772bc42ec68ff6.js": "/fun-piano-keyboard-app/precache-manifest.ea885ec7e0d358de96772bc42ec68ff6.js",
+    "service-worker.js": "/fun-piano-keyboard-app/service-worker.js",
+    "static/css/main.1a0b34a1.chunk.css.map": "/fun-piano-keyboard-app/static/css/main.1a0b34a1.chunk.css.map",
+    "static/js/2.59a08c8a.chunk.js.LICENSE.txt": "/fun-piano-keyboard-app/static/js/2.59a08c8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ce7a998.js",
+    "static/js/2.59a08c8a.chunk.js",
+    "static/css/main.1a0b34a1.chunk.css",
+    "static/js/main.9e8b846a.chunk.js"
+  ]
+}
