@@ -1,55 +1,55 @@
 export type NoteType = {
   note: string
   color: string
-};
+}
 
 export const notes: NoteType[] = [
   {
     note: "C",
-    color: "white",
+    color: "white"
   },
   {
     note: "CSharp",
-    color: "black",
+    color: "black"
   },
   {
     note: "D",
-    color: "white",
+    color: "white"
   },
   {
     note: "DSharp",
-    color: "black",
+    color: "black"
   },
   {
     note: "E",
-    color: "white",
+    color: "white"
   },
   {
     note: "F",
-    color: "white",
+    color: "white"
   },
   {
     note: "FSharp",
-    color: "black",
+    color: "black"
   },
   {
     note: "G",
-    color: "white",
+    color: "white"
   },
   {
     note: "GSharp",
-    color: "black",
+    color: "black"
   },
   {
     note: "A",
-    color: "white",
+    color: "white"
   },
   {
     note: "ASharp",
-    color: "black",
+    color: "black"
   },
   {
     note: "B",
-    color: "white",
+    color: "white"
   }
-];
+]
